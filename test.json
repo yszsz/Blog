@@ -1,0 +1,382 @@
+{
+  "expired": "套餐已过期，功能使用受限",
+  "header": {
+    "handbook": {
+      "bid": "出价要求",
+      "budget": "预算要求",
+      "text": "参考手册",
+      "timeZone": "时区信息"
+    },
+    "profile": "站点",
+    "timeZone": "时区",
+    "viewAll": "查看全部"
+  },
+  "sideMenus": {
+    "/summary": "数据总览",
+    "/summary/dashboard": "广告数据汇总",
+    "/summary/queryText": "搜索词",
+    "/summary/asin": "搜索ASIN",
+    "/summary/keyword": "投放关键词",
+    "/summary/target": "投放商品定位",
+    "/analyze": "活动/组",
+    "/analyze/campaign": "广告活动",
+    "/analyze/group": "广告组",
+    "/stream": "实时数据流",
+    "/bidManage": "一键调价",
+    "/scheduledManage": "定时任务",
+    "/scheduledManage/groupTask": "定时竞价管理",
+    "/scheduledManage/campaignTask/list": "定时活动管理",
+    "/automationManage/rules": "自动化管理",
+    "/managerDashboard": "商品分析",
+    "/managerDashboard/inventoryProducts": "库存商品",
+    "/managerDashboard/products": "投放商品",
+    "/budgetManagement": "预算管理",
+    "/workBrnch": "工作台",
+    "/workBench/adjustRecord": "调价记录",
+    "/workBench/adForecast": "新品广告预测"
+  },
+  "metrics": {
+    "impressions": "曝光量",
+    "clicks": "点击量",
+    "ctr": "CTR",
+    "cost": "花费",
+    "orders": "订单",
+    "order": "订单",
+    "acos": "ACOS",
+    "sales": "销售额",
+    "cvr": "CVR",
+    "conversionRate": "CVR",
+    "clickPerOrder": "每单点击量",
+    "costPerOrder": "每单点击量",
+    "costPerUnit": "单件花费",
+    "units": "销售量",
+    "vcpm": "VCPM",
+    "viewImpressions": "可见曝光量",
+    "roas": "订单转化率",
+    "cpc": "CPC",
+    "isir": "IR/IS"
+  },
+  "summaryPanelHeader": {
+    "adEfficient": "广告效率",
+    "awareness": "认知触达",
+    "orderEfficient": "订单效率",
+    "cvr": "转化率",
+    "colund": "文字云",
+    "cost": "广告花费",
+    "sales": "广告销售",
+    "orders": "广告订单",
+    "budgetAndCost": "商品推广总预算与花费"
+  },
+  "searchTerm": {
+    "1": "搜索词",
+    "2": "搜索ASIN",
+    "text": "搜索词",
+    "asin": "搜索ASIN"
+  },
+  "dateEnums": {
+    "60d": "过去60天",
+    "30d": "过去30天",
+    "14d": "过去14天",
+    "7d": "过去14天",
+    "2d": "昨天",
+    "1d": "今天"
+  },
+  "week": {
+    "1": "周一",
+    "2": "周二",
+    "3": "周三",
+    "4": "周四",
+    "5": "周五",
+    "6": "周六",
+    "7": "周日",
+    "0": "周日"
+  },
+  "campaignType": {
+    "1": "商品推广",
+    "2": "品牌推广",
+    "3": "展示型推广"
+  },
+  "statusEnums": {
+    "enabled": "已启用",
+    "paused": "已暂停",
+    "archived": "已取消",
+    "pending": "待审核",
+    "draft": "草稿"
+  },
+  "MatchTypeKeywordEnums": {
+  "exact": "精准匹配",
+  "phrase": "短语匹配",
+  "broad": "宽泛匹配"
+  },
+  "metricInfo": {
+    "impressions": "<O>test<1 style='color:red'>这里是一个红色的曝光</1></O>",
+    "vtr": "有效曝光率，即每一百个广告曝光带来的可见曝光，它表示了广告被消费者看到的机会。",
+    "vctr": "可见曝光点击率，即每一百个可见曝光贡献的广告点击量，它表示了广告有效展示带来的点击机会。",
+    "ctr": "点击率，点击量÷曝光量， 即平均每100个曝光中产生的点击次数。",
+    "acos": "广告花费÷销售额 平均每产生100元的销售额所需要的广告费用。",
+    "cpc": "CPC即平均单次点击费用。",
+    "cvr": "转化率，订单量÷点击量，即平均每100个点击产生的出单数量。",
+    "conversionRate": "转化率，订单量÷点击量，即平均每100个点击产生的出单数量。",
+    "clickPerOrder": "点击量÷订单量，平均每出一个订单所需要的点击次数。",
+    "costPerOrder": "<div>花费÷订单量，平均每出一个订单所需要的广告费用。</div>",
+    "costPerUnit": "平均每销售一件商品所需要的广告费用。品牌推广广告不提供该数据(均为0)。",
+    "units": "广告订单包含的商品销售件数。<br />品牌推广广告不提供该数据(均为0)。",
+    "vcpm": "VCPM即广告平均每一千次可见曝光量产生的费用。",
+    "dpv": "页面访问量，即由广告点击带来的商品页面的访问量。",
+    "viewImpressions": "根据媒体评级委员会 (MRC) 的定义，用户在浏览页面时，广告至少50% 的内容在用户的可视区中展示至少停留 1 秒钟，这样才能将其计算为可见曝光量。",
+    "viewableImpression": "根据媒体评级委员会 (MRC) 的定义，用户在浏览页面时，视频广告至少50% 的内容在用户的可视区中展示且至少播放了2秒钟，这样才能将其计算为可见曝光量。",
+    "topOfSearchImpressionShare": {
+      "item1": "搜索结果首页首位展示量份额。",
+      "item2": "广告活动获得的搜索结果顶部展示量占其获得的所有符合条件的搜索结果顶部展示量的百分比。",
+      "item3": "符合条件与否由各种因素所决定，包括广告活动状态和展示状态。该指标适用于品牌推广活动和商品推广活动。对于商品推广，该指标提供了搜索结果顶部（第一页）的展示量份额。"
+    },
+    "costType": "广告费用支付的两种方式。CPC即按照点击付费；VCPM即按照广告每一千次曝光付费。",
+    "ruleBasedBudget": "暂无预算规则或者设定了预算规则但今日不生效的，今日执行预算就等于每日预算；设定了预算规则且今日生效的，今日执行预算将在每日预算基础上提高您设定的百分比。"
+  },
+  "commonInfo": {
+    "isir": {
+      "ir": "Impreesion Rank, 搜索词全网曝光排名，是指您在该搜索词上面相对于亚马逊全网其它广告主获得的广告曝光量的排名。IR目前仅适用于商品推广广告。如果IR是1，则表示您在该搜索词获得的广告曝光居全网排名第一。",
+      "is": "Impreesion Share, 搜索词全网曝光份额，是指您在该搜索词上面相对于亚马逊全网其它广告主获得的广告曝光量的百分比。IS目前仅适用于商品推广广告。如果IS是50%，则表示您在该搜索词获得广告曝光占据了全网的50%。",
+      "extra": "目前该功能仅支持北美站点。"
+    },
+    "baseBid": "您可以为所有的投放对象设定基准出价并随时修改。在定时调价和一键调价中，您可以选择采取“基于基准出价调整”的方式调整竞价，在基础出价上面提高或者降低竞价，也可以按时回到该基础出价。<br /><br />如果没有设置基准出价，或者投放对象的基础出价被删除则将显示“-”；对于“无基准出价”的投放对象，“基于基准出价调整”将不会对其做出调价操作。"
+  },
+  "fields": {
+    "handle": "操作",
+    "queryText": "搜索词",
+    "queryAsin": "搜索ASIN",
+    "keywordText": "关键词",
+    "target": "类别和商品",
+    "state": "状态",
+    "bid": "竞价",
+    "baseBid": "基准出价",
+    "recommendationBid": "建议竞价",
+    "topOfSearchImpressionShare": "首顶IS",
+    "costType": "花费类型",
+    "portfolio": "广告组合",
+    "ruleBasedBudget": "今日执行预算",
+    "budget": "预算",
+    "endDate": "起始日期",
+    "campaign": "广告活动"
+  },
+  "handingInfo": {
+    "edit": "编辑",
+    "search": "查询",
+    "reset": "重置",
+    "paused": "暂停",
+    "archived": "归档",
+    "enabled": "开启",
+    "confirm": "确定",
+    "deleteBaseBid": "删除基准出价",
+    "customAnalyze": "自定义分析",
+    "downloadReport": "下载报告",
+    "customColumn": "自定义列表"
+  },
+  "commonParse": {
+    "hot": "热",
+    "selectPlaceholder": "请选择",
+    "inputPlaceholder": "请输入",
+    "allProfiles": "全站点",
+    "campaign": "广告活动",
+    "group": "广告组",
+    "campaignState": "广告活动状态",
+    "groupState": "广告组状态",
+    "targetState": "商品定位状态",
+    "keywordState": "关键词状态", 
+    "keyword": "关键词",
+    "target": "商品定位",
+    "all": "全部",
+    "table": {
+      "campaign": "活动",
+      "group": "组",
+      "searchForGlobal": "全站搜",
+      "stream": "实时数据流",
+      "querytext": "对应搜索词",
+      "queryAsin": "对应搜索ASIN",
+      "total": "总计{{total}}个"
+    },
+    "pagination": {
+      "total": "共{{total}}条"
+    }
+  },
+  "chartView": {
+    "funnel": "转化率",
+    "campaignBudget": "商品推广总预算",
+    "spent": "已花费",
+    "setCampaignBudget": "当前站点没有设置商品推广总预算，如需设置请点击",
+    "set": "设置",
+    "outOfCampaignBudget": "商品推广总预算超限"
+  },
+  "video": {
+    "intro": "功能讲解",
+    "globalQueryText": "全站点搜索词视频讲解"
+  },
+  "negative": {
+    "alreadyNegative": "已否",
+    "createKeyword": "添加否定{{type}}",
+    "createKeywordSuccess": "添加否定成功{{num}}个",
+    "createKeywordFail": "添加否定失败",
+    "cancel": "取消否定{{result}}",
+    "mutilNegative": "确认批量否定{{result}}?",
+    "mutilCancel": "确认将选中{{text}}取消否定？",
+    "exact": "否定精准",
+    "phrase": "否定短语"
+  },
+  "bid": {
+    "copy": "采用竞价成功",
+    "update": "修改竞价成功",
+    "del": "删除竞价成功"
+  },
+  "baseBid": {
+    "del": "删除基准出价",
+    "info": "该广告组中所有的投放对象的基准出价将被默认设置为各个投放对象当前的投放竞价。",
+    "copyAll": "全部采用当前竞价",
+    "copy": "采用当前竞价",
+    "result": {
+      "update": "修改基准出价成功",
+      "del": "删除基准竞价成功"
+    }
+  },
+  "state": {
+    "update": "修改状态成功"
+  },
+  "export": {
+    "createKeyword": "导出创建关键词",
+    "createTarget": "导出创建商品定位"
+  },
+  "popconfirm": {
+    "okText": "是",
+    "cancelText": "否",
+    "campaign": {
+      "paused": "是否批量暂停广告活动？",
+      "enabled": "是否批量开启广告活动？",
+      "archived": "是否批量归档广告活动？"
+    },
+    "keywordState": {
+      "update": "是否确认{{updateType}}该关键词"
+    }, 
+    "targetState": {
+      "update": "是否确认{{updateType}}该商品定位"
+    },
+    "baseBid": {
+      "mutilDelBaseBid": "是否确认批量删除基准出价？",
+      "delBaseBid": "确认删除当前基准出价？"
+    }
+  },
+  "recommendationBid": {
+    "getAll": "查看全部建议竞价",
+    "get": "建议竞价",
+    "noData": "暂无建议竞价",
+    "set": "应用" 
+  },
+  "treeMode": {
+    "selectedCam": "已选择{{num}}个广告活动",
+    "selectedGroup": "已选择{{num}}个广告组",
+    "camPlaceholder": "请选择广告活动",
+    "groupPlaceholder": "请选择广告组"
+  },
+  "isir": {
+    "updateAll": "更新全部IR/IS",
+    "update": "更新IR/IS",
+    "trending": "IR/IS趋势图"
+  }, 
+  "campaign": {
+    "title": "广告活动列表",
+    "campaignType": "活动类型",
+    "adType": "广告类型",
+    "portfolio": "广告组合",
+    "campaignState": "启用状态",
+    "budgetRule": "预算规则",
+    "campaignName": "广告活动",
+    "sku/asin": "SKU/ASIN",
+    "noBlongPortfolio": "未归属广告组合",
+    "budgetRuleTypeParse": {
+      "1": "含有效预算规则",
+      "2": "全部过期和已暂停",
+      "3": "暂无预算规则"
+    },
+    "noPortfolio": "无广告组合",
+    "updatePortfolio": "修改广告组合",
+    "changePortfolio": "更改所属广告组合",
+    "editRule": "编辑规则",
+    "noRule": "暂无规则",
+    "noEndDate": "无结束日期",
+    "budgetRuleWrap": {
+      "daily": "每日",
+      "lifetime": "全周期"
+    },
+    "outOfBudget": "{{dateTime}}广告活动超预算",
+    "accountOutOfBudget": "{{dateTime}}商品推广总预算超限",
+    "portfolioOutOfBudget": "{{dateTime}}广告组合超预算",
+    "popconfirm": {
+      "enabled": "是否开启该广告活动？",
+      "paused": "是否暂停该广告活动？"
+    }
+  }, 
+  "productDropDown": {
+    "selected": "已选择{{num}}个投放商品"
+  },
+  "customAnalyze": {
+    "title": "自定义分析",
+    "analyzeCondition": "编辑分析条件",
+    "start": "请点击开始进行个性化的分析，{{metricNum}}个指标任您选择！",
+    "clear": "清空条件",
+    "change": "筛选结果将随日期选择改变而变化。",
+    "item1": "请设置您需要分析的条件指标",
+    "item2": "您最多可以使用{{CONDITION_NUM}}个条件组，条件组之间是“或者”的关系，精灵可以帮助您把满足任一条件组的对象都筛选出来；每个条件组中可以选择多个指标，指标之间是“并且”的关系，只有当所选择指标全部满足时该条件组才生效。",
+    "conditionGroup": "条件组{{num}}",
+    "metricItem": "该条件组下所设定的指标之间是“并且”关系，即全部满足后该条件才会生效。",
+    "groupItem": "不同条件组之间是“或者”关系，任一条件组生效后将被执行。",
+    "insideMax": "一个条件组最多只能添加{{insideMax}}个指标",
+    "enternalMax": "您最多只能添加{{enternalMax}}个条件组",
+    "addMetric": "增加指标",
+    "conditionGroupInfo": "该条件组下所设定的指标之间是“并且”关系，即全部满足后该条件才会生效。",
+    "delGroup": "删除条件组",
+    "addGroup": "增加条件组",
+    "or": "或者",
+    "maxIn": "最大值（含）",
+    "mixIn": "最小值（含）",
+    "regexp": {
+      "nonnegative": "不能为负数",
+      "greaterThan0": "必须是大于等于0的正整数",
+      "num+2deci": "必须是数字且只能包含两位小数位",
+      "r>l": "右边数字必须大于左边数字"
+    }
+  },
+  "summary": {
+    "info": {
+      "budgetAndCost": "商品推广总预算一旦设定，则代表了该站点当天的所有商品推广广告的预算上限。该预算上限值一旦到达，站点中的所有的商品推广告就不再曝光，直至下一天的零点。"
+    },
+    "common": {
+      "summaryPageTitle": "广告数据汇总",
+      "queryTextTitle": "全站点搜索词汇总",
+      "queryAsinTitle": "全站点搜索ASIN汇总",
+      "keywordTitle": "全站点关键词汇总",
+      "targetTitle": "全站点商品定位汇总",
+      "customPanelOrder": "自定义图表顺序",
+      "getStarted": "新手入门必看",
+      "averageDailyBudgetIncrease": "平均每日预算增长"
+    },
+    "dailyAmountBudget": {
+      "noData": "未设置",
+      "noDataExplain": "未设置时，如果广告活动支出低于您的每日预算，对于23年3月27日之前创建的广告活动，则剩余金额可用于增加该日历月的其他日期的每日预算，最多可增加 25%；对于23年3月27日之后创建的广告活动，则剩余金额可用于增加该日历月的其他日期的每日预算，最多可增加 100%。这适用于您的所有广告活动。",
+      "preText": "花费最多比平均每日预算多出{{percent}}",
+      "percentText": "您愿意每天为您的广告活动花费的金额。如果广告活动支出低于您的每日预算，则剩余金额可用于增加该日历月的其他日期的每日预算，最多可增加{{percent}}。这适用于您的所有广告活动。",
+      "options": {
+        "item": "使用未花费的预算金额，花费最多比平均每日预算多出 {{percent}}",
+        "info1": "如果以上两项均不勾选，如果广告活动支出低于您的每日预算，对于23年3月27日之前创建的广告活动，则剩余金额可用于增加该日历月的其他日期的每日预算，最多可增加 {{ percent1 }}；对于23年3月27日之后创建的广告活动，则剩余金额可用于增加该日历月的其他日期的每日预算，最多可增加 {{percent2}}。这适用于您的所有广告活动。",
+        "info2": "您愿意每天为您的广告活动花费的金额。如果广告活动支出低于您的每日预算，则剩余金额可用于增加该日历月的其他日期的每日预算，最多可增加 {{featureFlagVal}}%。这适用于您的所有广告活动。"
+      }
+    },
+    "updateMsg": {
+      "averageDailyBudgetIncrease": "修改平均每日预算增长成功",
+      "editAverageDailyBudgetIncrease": "编辑平均每日预算增长"
+    },
+    "searchTerm": {
+      "1": "搜索词列表",
+      "2": "搜索ASIN列表",
+      "text": "搜索词列表",
+      "asin": "搜索ASIN列表"
+    }
+  }
+}
